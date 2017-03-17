@@ -10,6 +10,18 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *billAmountTextField;
+
+@property (strong, nonatomic) IBOutlet UILabel *tipAmountLabel;
+
+@property (strong, nonatomic) IBOutlet UIButton *calculateTipButton;
+
+@property (strong, nonatomic) IBOutlet UITextField *tipAmountTextField;
+
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *testTextField;
+
+- (IBAction)calculateTip:(UIButton *)sender;
+
 
 @end
 

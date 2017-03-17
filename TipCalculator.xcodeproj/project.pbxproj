@@ -13,6 +13,7 @@
 		76AD03561E7C380E00842DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AD03541E7C380E00842DCC /* Main.storyboard */; };
 		76AD03581E7C380E00842DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AD03571E7C380E00842DCC /* Assets.xcassets */; };
 		76AD035B1E7C380E00842DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AD03591E7C380E00842DCC /* LaunchScreen.storyboard */; };
+		76AD03641E7C3F9D00842DCC /* Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AD03631E7C3F9D00842DCC /* Calculations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		76AD03571E7C380E00842DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AD035A1E7C380E00842DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76AD035C1E7C380E00842DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AD03621E7C3F9D00842DCC /* Calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculations.h; sourceTree = "<group>"; };
+		76AD03631E7C3F9D00842DCC /* Calculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				76AD03591E7C380E00842DCC /* LaunchScreen.storyboard */,
 				76AD035C1E7C380E00842DCC /* Info.plist */,
 				76AD034B1E7C380E00842DCC /* Supporting Files */,
+				76AD03621E7C3F9D00842DCC /* Calculations.h */,
+				76AD03631E7C3F9D00842DCC /* Calculations.m */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				76AD03531E7C380E00842DCC /* ViewController.m in Sources */,
 				76AD03501E7C380E00842DCC /* AppDelegate.m in Sources */,
 				76AD034D1E7C380E00842DCC /* main.m in Sources */,
+				76AD03641E7C3F9D00842DCC /* Calculations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
